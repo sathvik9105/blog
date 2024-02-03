@@ -1,0 +1,181 @@
+baseURL = 'http://sathvik9105.github.io/'
+languageCode = 'en-us'
+title = 'Sathvik'
+theme = 'hugo-profile'
+Paginate = 3
+enableRobotsTXT = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML", "RSS"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[[Menus.main]]
+identifier = "blog"
+name = "Blog"
+title = "Blog posts"
+url = "/blogs"
+weight = 1
+
+[params]
+title = "Sathvik's Portfolio"
+description = "Exploring the world of technology and innovation"
+favicon = "/fav.png"
+useBootstrapCDN = false
+animate = true
+
+[params.font]
+fontSize = "1.2rem"
+fontWeight = 400
+lineHeight = 1.5
+textAlign = "left"
+
+[params.navbar]
+align = "ms-auto"
+brandName = "Sathvik's Portfolio"
+disableSearch = false
+
+[params.navbar.menus]
+disableAbout = false
+disableExperience = false
+disableEducation = false
+disableProjects = false
+disableAchievements = false
+disableContact = false
+
+[params.hero]
+enable = true
+intro = "Hi, my name is"
+title = "Sathvik Pasuvula."
+subtitle = "Exploring the realms of technology."
+content = "I'm a tech enthusiast pursuing my Bachelor's in Computer Science & Engineering. Let's create, innovate, and explore together!"
+image = "images/sathvik2.jpeg"
+
+[params.hero.bottomImage]
+enable = true
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-github"
+url = "https://github.com/sathvik9105/"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/sathvik-p-a3972328a/"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-instagram"
+url = "https://www.instagram.com/sathvik9105/"
+
+
+
+
+[params.about]
+  enable = true
+  title = "About Me"
+  image = "images/sathvik.jpeg"
+content = """
+I'm a tech geek with a strong passion for building things.  
+
+I love networking with people around, listening pop & filmy music, eating food :)  
+
+I find my interest in open source contributions as I beleive in contributions but not competition. Open source contributions help me to gain knowledge, network with different types of coders across the world and adds experience to my profile. Open source is skill based learning, where I get to learn thing and implement them practically.  
+
+Currently, I'm working on Java programming language and looking forward to excell in Web Development.
+
+<br>"""
+
+
+    [params.about.skills]
+    enable = true
+    title = "Skills"
+    items = ["Python","Matlab", "Html", "Css", "Linux OS"]
+
+[params.education]
+enable = true
+index = false
+
+[[params.education.items]]
+title = "UnderGraduation"
+date = "2023 - 2027"
+content = """
+B.Tech in Computer Science & Engineering  
+Amrita Vishwa Vidyapeetham   
+School of Computing  
+CSE Dept.  
+- A place which provides quality education and beleives in 'Education for Life'.  
+- Stepping into my second semester of freshmen year.
+"""
+
+[params.education.items.school]
+name = "Amrita Vishwa Vidyapeetham, Amritapuri"
+url = "https://www.amrita.edu/campus/amritapuri/"
+
+[[params.education.items]]
+title = "Secondary Education"
+date = "2020 - 2022"
+content = """
+Narayana Junior COllege  
+TSBIE- Class XII  
+CGPA- 93.2%  
+Maths | Physics | Chemistry | English | Sanskrit
+"""
+
+[params.education.items.school]
+name = "Narayana Group"
+url = "https://www.narayanagroup.com/"
+
+[[params.education.items]]
+title = "Primary Education"
+date = "2011 - 2020"
+content = """
+Delhi Public School, Nacharam   
+AISSCE- Class XI  
+CGPA- 92.2%  
+"""
+
+[params.education.items.school]
+name = "DELHI PUBLIC SCHOOL, Nacharam"
+url = "https://www.dpsnacharam.in/  "
+
+
+
+
+
+[params.projects]
+  enable = true
+
+    [[params.projects.items]]
+    title   = "Simple Gui Calculator"
+    content = "It is a mini project which comnsists of simple Gui Calculator made using python programming language and tkinter package."
+     image = "images/calculator.jpg"
+    badges = ["Python","Tkinter","GUI"]
+
+
+
+      [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/sathvik9105/gui-calculator"
+
+    
+
+[params.contact]
+enable = true
+content = "Ready to collaborate or just want to chat? Feel free to drop me a message!"
+email = "sathvikpasuvula2023@gmail.com"
+btnName = "Send Me a Message"
+
+[params.footer.socialNetworks]
+github = "https://github.com/sathvik9105/"
+instagram = "https://www.instagram.com/sathvik9105/"
+linkedin = "https://www.linkedin.com/in/sathvik-p-a3972328a/"  
+
+
+
+
+[params.terms]
+read = "Read"
+toc = "Table Of Contents"
+copyright = "All rights reserved"
+emailText = "Explore my website!"
