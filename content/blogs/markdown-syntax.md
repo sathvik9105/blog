@@ -68,7 +68,7 @@ Building my portfolio website with Hugo and hosting it on GitHub Pages was a gre
   - [sathvik9105.github.io](https://github.com/sathvik9105/sathvik9105.github.io)
 
 3. Live Portfolio:
-  - [View Portfolio](https://swayam-agrahari.github.io/)
+  - [View Portfolio](https://sathvik9105.github.io/)
 
 4. Blog:
   - [Blog Post](https://swayam-agrahari.github.io/blogs/markdown-syntax/)
