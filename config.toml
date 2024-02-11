@@ -148,7 +148,7 @@ url = "https://www.dpsnacharam.in/  "
 
     [[params.projects.items]]
     title   = "Simple Gui Calculator"
-    content = "It is a mini project which comnsists of simple Gui Calculator made using python programming language and tkinter package."
+    content = "It is a mini project which consists of simple Gui Calculator made using python programming language and tkinter package."
      image = "images/calculator.jpg"
     badges = ["Python","Tkinter","GUI"]
 
